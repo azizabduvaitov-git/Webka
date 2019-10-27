@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<style>
+		 nav a{
+      display:flex;    
+      justify-content: center;
+      width: 20%;
+      height: 20px;
+      font-size: 20px;
+      border: solid 1px red;
+      text-decoration: none;
+      color: white;
+      align-items: center;
+    }
+    nav{
+      display: flex;
+      justify-content: center;
+      background-color: black;
+    }
+    .alert{
+     position:relative;
+         top:200px;
+          left:330px;
+          border:5px solid red;
+          border-radius:10px;
+          background-color:white;
+          width:40%;
+          height: 45%;
+          
+    
+    }
+    .overlay{
+    
+          background-color:rgba(0, 0, 0,0.1);
+          width:110%;
+          height:100%;
+          position:absolute;
+          top:0px;
+          left:0px;
+          z-index:1;
+          position:absolute;
+    }h1{
+      display: flex;
+      align-items:  center;
+      justify-content: center;
+    }
+    p{
+      display: flex;
+      
+      
+    }
+    .card{
+      position:relative;
+          border: 1px solid blue;
+          border-radius:5px;
+            margin: 30px 5px 5px 200px;
+          width:150px;
+    
+}
+   
+    .title{
+      position:absolute;
+          background-color:blue;
+          color:white;
+          top:0px;
+          left:0px;
+    }
+    section{
+      display: flex;
+         flex-direction: row;
+      flex-wrap: wrap;
+         
+   
+   
+    }
+    .icon{
+      position: absolute;
+          top: 1px;
+      right: 1px;
+  
+    }
+    .price{
+      text-align: center;
+      font-weight: bold;
+    }
+	</style>
+  </head>
+
+  <body>
+    <div class="overlay">
+      <div class="alert">
+        <h1>Welcome to Wheels.kz</h1>
+        <p>If you have any questions, please contact us by no: 87017023535</p>
+        <p>The best cars with the best prices are present on our website and application</p>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Prices</a>
+        <a href="#">Contacts</a>
+        <a href="#">Opportunities</a>
+      </nav>
+    </header>
+    <section>
+      <div class="card first">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X6</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Mercedes C100</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X5</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Mitsibushi Outlander</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Audi A8</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X6</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+    </section>
+  </body>
+
+</html>
