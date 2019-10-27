@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+.left_part{
+        color:white;
+        float:left;
+        background-color:#990000;
+        width:50%;
+        height: 750px;
+        display:flex;
+  }
+      .left_part h1{
+        align-items: center;
+        display: flex;
+        margin-left: 180px;
+        font-weight: bold;
+        font-size: 50px;
+        color: lightgrey;
+      }
+      .right_part{
+        float: left;
+        width: 500px;
+        height: 200px;
+      }
+      .right_part h3{
+        display: flex;
+        justify-content: center;
+      }
+</style>
+</head>
+<body>
+<aside class="left_part">
+  <h1>Web Technologies</h1>
+</aside>
+<section class="right_part">
+  <h3>Syllabus</h3>
+  <div class="">
+    <ul>
+      <li><a href="#">Week #1</a> Introduction to HTML</li>
+      <li><a href="#">Week #2</a> CSS Basics</li>
+      <li><a href="#">Week #3</a> CSS Box model</li>
+      <li><a href="#">Week #4</a> Flex box model</li>
+    </ul>
+  </div>
+</section>
+</body>
+</html>
