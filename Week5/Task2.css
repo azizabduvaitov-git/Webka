@@ -1,0 +1,79 @@
+
+#carousel img{
+  width:100px;
+  height:50px;
+}
+#carousel{
+  display:flex;
+}
+.row{
+	display: flex;
+	border-left: 5px solid red;
+}
+#bigImage img{
+  width:550px;
+  height:300px;
+  margin-top: 30px;
+}
+
+.all{
+	display: flex;
+}
+
+.definition span{
+	display: flex;
+	width: 290px;
+	flex-wrap: wrap;
+	color: white;
+	margin-left: 30px;
+
+}
+.definition .h1{
+	color: white;
+	margin-top: 30px;
+	margin-left: -60px;
+	width: 300px;
+	font-size: 40px;
+}
+.definition .h11{
+	color: white;
+	margin-top:	1px;
+	margin-left: -20px;
+	width: 400px;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.definition{
+	border: 1px solid black;
+	background-color: #25292e;
+	width:350px;
+	height: 400px;
+	margin-left:-15px;
+	z-index: 1
+}
+button img{
+	position: absolute;
+	right: -30px;
+	top:7.5px;
+	z-index: 1;
+}
+img{
+	filter: ;
+}
+button{
+	width: 200px;
+	height: 45px;
+	margin-top: 25px;
+  	color: black;
+  	text-decoration: none;
+  	width:250px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	text-align: left;
+  	align-items: center;
+  	background-color: transparent;
+  	border-right: 40px solid white;
+  	margin-left: 30px;
+  	position: relative;
+  	color: white;
+}
