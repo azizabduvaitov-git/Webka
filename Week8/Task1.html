@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<style>
+			#news{
+				border:1px solid red;
+				width:400px;
+				height:300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="news"></div>
+		<button id="sport" value='http://demo4296963.mockable.io/news-sport' onClick="onClick(value);">Load Sport news</button>
+		<button id="politics" value='http://demo4296963.mockable.io/news-politics' onClick='onClick(value);'>Load Politics news</button>
+		<button id="bussiness" value='http://demo4296963.mockable.io/news-bussiness' onClick="onClick(value);">Load Bussiness news</button>
+		
+		<script>
+			function onClick(value){
+				fetch(value).then(onResponse,onError).then(onS);
+			}
+			function onS(text){
+				let news = document.getElementById('news');
+				news.innerHTML = text;
+			}
+			function onResponse(response){
+				return response.text();
+			}
+			function onError(error){
+				console.log('Error: ' + error);
+			}
+		</script>
+	</body>
+</html>
