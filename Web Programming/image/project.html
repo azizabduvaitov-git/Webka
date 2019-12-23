@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		
+		*{
+			margin: 0;
+		}
+
+		header{
+			background-color: mediumaquamarine;
+		}
+		
+		
+
+
+		.header{
+			width:50%;
+		    display:flex;
+			flex-direction:row;
+			justify-content:center;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+
+		.givusacall{
+			list-style-type:none; 
+			color:white;
+			font-size:14px;
+		}
+		
+
+
+		.logreg{
+			display:flex;
+			flex-direction:row;
+			width:45%;
+			list-style-type: none;
+		}
+		
+
+		.logreg li a{
+			text-decoration: none;
+			color: white;
+			font-size: 14px;
+
+		}
+
+		.logreg li{
+			display: flex;
+			flex-direction: row;
+			margin-left: 15px;
+		}
+		
+
+		.slide img{
+			display: block;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			width: 75%;
+		}
+		
+
+		.images1{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			background-color: lightskyblue;
+		}
+
+
+
+		
+		.txthover{
+			display: flex;
+			flex-direction: row;
+			max-width: 33%
+		}
+
+		.textimg{
+			display: flex;
+			flex-direction: column;
+			max-width: 25%;
+			flex-wrap: wrap;
+
+			align-content: center;
+			
+		}
+
+		.textimg p{
+			font-size: 15px;
+		}
+
+		.header1{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				max-width:100%; 
+				align-items: center;
+				background-color: lightseagreen;
+
+			}
+
+				
+
+		.container2 a{
+				margin: 30px;
+				text-decoration:none;
+				color: lightgrey;
+			}
+
+			.first_button {
+  				background-color: #4CAF50;
+  				border: none;
+  				color: white;
+  				padding: 15px 32px;
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+  				font-size: 16px;
+  				margin: 4px 2px;
+  				cursor: pointer;
+  			}
+
+  			.latestcars .text_center{
+  				text-align: center;
+  			}
+
+  			.add{
+  				margin-top: 15px;
+  				background-color: red;
+  				border: none;
+  				color: white;
+  				text-align:center;
+  				text-decoration: none;
+  				font-size: 20px;
+  				cursor: pointer;
+
+  			}
+
+		
+
+		@media screen and (max-width: 376px){
+			.textimg p{
+				font-size: 9px;
+			}
+
+			.textimg{
+				max-width: 40%;
+
+			}
+
+			.txthover img{
+				display: block;
+			max-width: 60%;
+			height: auto;
+			}
+
+			.txthover{
+				max-width: 50%;
+			}
+
+			.header{
+				width: 100%;
+				justify-content: flex-start;
+			}
+
+			.logreg li a{
+				font-size:12px;
+			}
+
+			.logreg{
+				width: 30%;
+				margin-right: 12px;
+			}
+
+			.header ul li{
+				font-size:12px;
+			}
+
+			.container a img{
+				width: 50
+			}
+
+			.header1{
+				max-width: 100%;
+
+			}
+
+			.container2 a{
+				margin: 2px;
+			}
+
+		}
+
+		@media screen and (min-width: 376px) and (max-width: 1022px){
+			.txthover{
+				max-width: 43%;
+			}
+
+			.textimg p{
+				font-size: 11px;
+			}
+			.textimg{
+				max-width: 35%;
+			}
+		}
+
+		
+
+
+
+	</style>
+
+
+
+	<title>Final project</title>
+
+</head>
+<body>
+<header>
+
+	<div class="header">
+			<ul class="givusacall">
+				<li>Give us a call : +7 776 312 0577</li>
+			</ul>
+			<ul class="logreg">
+				<li><a href="#">Login</a> </li>
+				<li><a href="#"><span class="register">Register</span></a></li>
+			</ul>
+		</div>
+	
+</header>
+	<div class="header1">
+		<div class="container">
+				
+				<a class="navbar-brand logo" href="#"><img src="logo.png" width="50%" height="100%" alt="logo"></a>
+		</div>
+		<div class="container2">
+			<a href="">HOME</a><a href="">CATEGORIES</a><a href="">DEALERS</a><button class="first_button">POST NEW CAR</button>
+			
+		</div>
+	</div>
+	
+
+
+
+<div class="allcontain">
+	<div class="slide">
+		<img name="slide"/>
+	</div>
+</div>
+
+
+
+
+<div class="allcontain">
+
+
+<div class="latestcars">
+	<h1 class="text_center">&bullet; CARS &bullet;</h1>
+</div>
+<br>
+<br>
+
+
+<div class="images1">
+				<div class="txthover">
+						<img src="car1.jpg" alt="car1" style="width: 50%">
+					<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+			 			<button class="add">ADD CAR</button><br>
+	 				</div>
+	 			</div>
+
+
+
+
+				<div class="txthover">
+					<img src="car2.jpg" alt="car2" style="width: 50%">
+					<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>
+	 				</div>
+				</div>	 
+
+
+
+
+				<div class="txthover">
+					<img src="car3.jpg" alt="car3" style="width: 50%">
+					<div class="textimg">
+						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>
+	 					</div>
+				</div>	 
+
+
+
+
+
+				<div class="txthover">
+					<img src="car4.jpg" alt="car4" style="width: 50%">
+					<div class="textimg">
+						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+					<button class="add">ADD CAR</button><br>
+					</div>			
+				</div>	 
+
+
+
+				<div class="txthover">
+					<img src="car5.jpg" alt="car5" style="width: 50%">
+	 				<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>	 					
+						</div>
+				</div>	 
+
+
+
+
+				<div class="txthover">
+					<img src="car6.jpg" alt="car6" style="width: 50%">
+	 				<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>
+	 				</div>
+	 			</div>	 
+
+
+
+				<div class="txthover">
+					<img src="car7.jpg" alt="car7" style="width: 50%">
+	 				<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>
+	 				</div>	
+				</div>	 
+
+
+
+
+
+				<div class="txthover">
+					<img src="car8.jpg" alt="car8" style="width: 50%"	>
+	 				<div class="textimg">
+	 					<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
+			sed do eiusmod tempor incididunt </p>
+	 				<button class="add">ADD CAR</button><br>
+					</div>
+				</div>	 
+
+</div>
+
+	<!-- ______________________________________________________Bottom Menu ______________________________-->
+	<div class="bottommenu">
+		<div class="bottomlogo">
+		<span class="dotlogo">&bullet;</span><img src="image/logo.png" alt="logo"><span class="dotlogo">&bullet;;</span>
+		</div>
+		<ul class="nav nav-tabs bottomlinks">
+			<li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
+			<li role="presentation"><a href="#/">CATEGORIES</a></li>
+			<li role="presentation"><a href="#/">PREORDERS</a></li>
+			<li role="presentation"><a href="#/">CONTACT US</a></li>
+			<li role="presentation"><a href="#/">RECEIVE OUR NEWSLETTER</a></li>
+		</ul>
+		<p>"Lorem ipsum dolor sit amet, consectetur,  sed do eiusmod tempor incididunt <br>
+			eiusmod tempor incididunt </p>
+		 <img src="image/line.png" alt="line"> <br>
+			<div class="footer">
+				<div class="copyright">
+				  &copy; Copy right 2019 | <a href="#">Privacy </a>| <a href="#">Policy</a>
+				</div>
+				<div class="atisda">
+					 Designed by Aziz Abduvaitov for final project given by Ardak Shalkarbay-uly 
+				</div>
+			</div>
+	</div>
+</div>
+
+
+
+
+<script>
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3000;	// Time Between Switch
+	 
+// Image List
+images[0] = "mercedes.jpg";
+images[1] = "bmw.jpg";
+images[2] = "audi.jpeg";
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	if(i < images.length - 1){
+	  i++; 
+	} else { 
+		i = 0;
+	}
+
+	setTimeout("changeImg()", time);
+}
+window.onload=changeImg;
+
+</script>
+</body>
+</html>
